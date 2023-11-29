@@ -12,7 +12,7 @@ public class ModelStore implements IModelChanger{
     List<Scene> scenes;
     List<Flash> flashes;
     List<Camera> cameras;
-    IModelChangedObserver changeObserver;
+    private IModelChangedObserver changeObserver;
     Scene getScena(int id){
         return new Scene();
     }
